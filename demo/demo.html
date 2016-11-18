@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="" />
+<meta name="copyright" content="" />
+<meta name="description" content="" />
+<title>移动版无缝轮播</title>
+<meta name="viewport" content="width=device-width,target-densitydpi=medium-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<style>
+*{ margin:0; padding:0; list-style:none;}
+#box{ width:320px; margin:10px auto; position:relative; height:148px; overflow:hidden;}
+#box ul{ position:absolute; left:0; top:0;}
+#box ul li{ width:320px; height:148px; float:left;font-size:0;}
+#box ul li img{width:100%;}
+#box ol{ width:64px;  position:absolute; bottom:0; left:50%; margin-left:-32px;}
+#box ol li{ width:10px; height:10px; background:#000; border-radius:50%; margin:3px; text-indent:-9999px; float:left;}
+#box ol li.on{ background:#f00;}
+</style>
+</head>
+
+<body>
+<div id="box">
+	<ul>
+		<li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479461037407.png">4</li>
+    	<li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479460900772.jpg">1</li>
+        <li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479460997015.jpg">2</li>
+        <li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479461020580.jpg">3</li>
+        <li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479461037407.png">4</li>
+        <li><img src="http://publicqn.saikr.com/003b5c317b9a40b5082763f77406ff911479460900772.jpg">1</li>
+    </ul>
+    <ol>
+    	<li class="on">1</li>
+    	<li>2</li>
+    	<li>3</li>
+    	<li>4</li>
+    </ol>
+</div>
+<script src="./slider.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
